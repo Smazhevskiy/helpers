@@ -7,6 +7,7 @@ import {Pagination} from './components/Pagination/Pagination'
 import {Progress} from './components/Progress/Progress'
 import {AlertError} from './components/Alerts/AlertError/AlertError'
 import {AlertInfo} from './components/Alerts/AlertInfo/AlertInfo'
+import {ScrollToTop} from './components/ScrollToTop/ScrollToTop'
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Progress/>
             <AlertError />
             <AlertInfo/>
+            <ScrollToTop/>
         </div>
     )
 }
